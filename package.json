@@ -1,12 +1,12 @@
 {
-  "name": "optimizedhtml",
+  "name": "alex-bulgakov.github.io",
   "version": "1.0.0",
-  "description": "OptimizedHTML - Start HTML Template",
+  "description": "Project files for alex-bulgakov.github.io",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "WebDesign Master",
+  "author": "alebul",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.11.1",

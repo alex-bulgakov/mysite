@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Bootstrap (latest) Grid Styles Only -->
+	<style></style>
+
+	<!-- Header CSS (first screen styles from header.min.css) - inserted in the build of the project -->
+	<style>.btn,.main-menu__nav p{text-transform:uppercase}.btn,.logo,.main-menu__nav a{text-decoration:none}::-webkit-input-placeholder{color:#666;opacity:1}:-moz-placeholder{color:#666;opacity:1}::-moz-placeholder{color:#666;opacity:1}:-ms-input-placeholder{color:#666;opacity:1}body input:focus:required:invalid,body input:required:valid,body textarea:focus:required:invalid,body textarea:required:valid{color:#666}*{-webkit-box-sizing:border-box;box-sizing:border-box}body{min-width:320px;max-width:1600px;margin:auto;position:relative;line-height:1.6;font-family:"Fira Sans",sans-serif;overflow-x:hidden}.btn{font-size:1.125em;color:#fff;border:2px solid #fff;-webkit-border-radius:2em;border-radius:2em;padding:15px}.container{max-width:1180px;margin:auto}.header{min-height:900px;padding-bottom:50px;background:url(../img/bg-header.jpg) top center no-repeat #69c9d1;background-size:100%}.header p{margin:0}.header__title{width:50%;padding-right:1%}.header__title h1{font-size:4.5em;font-weight:300;line-height:1.2em;margin-top:0}.header__title p{font-size:1.875em;font-weight:300}.main-menu{padding-top:90px;margin-bottom:200px}.main-menu::after{clear:both;content:"";display:table}.main-menu__nav{float:right;text-align:center}.main-menu__nav .fa{font-size:25px}.main-menu__nav p{font-size:.75em}.main-menu__nav a{color:#000}.logo{float:left;text-align:center;font-size:60px;font-weight:700;line-height:90px}.logo p{width:80px;height:80px;background-color:#000;color:#fff}</style>
+
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load Fonts CSS Start -->
+	<script>
+		// loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+	</script>
+	<!-- Load Fonts CSS End -->
+
+	<!-- Load Custom CSS Start -->
+	
+	
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load Custom CSS End -->
+
+	<!-- Load Custom CSS Compiled without JS Start -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Load Custom CSS Compiled without JS End -->
+
+	<!-- Custom Browsers Color Start -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- Custom Browsers Color End -->
+
+</head>
+
+<body>
+	<nav id="mmenu">
+		<ul>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">Menu</a>
+				<ul>
+					<li><a href="#">Submenu</a></li>
+					<li><a href="#">Submenu</a></li>
+					<li><a href="#">Submenu</a></li>
+					<li><a href="#">Submenu</a></li>
+					<li><a href="#">Submenu</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<!-- Custom HTML -->
+	<div class="page">
+		<header class="header">
+		
+			<div class="container">
+		
+				<div class="main-menu">
+							<a href="#" class="logo"><p>/.</p></a>
+		
+							<div class="main-menu__nav">
+								<a href="#mmenu">
+									<i class="fa fa-bars"></i>
+									<p>Menu</p>
+								</a>
+							</div>
+				</div>
+		
+				<div class="header__title">
+					<div class="header__title-col">
+						<h1>
+							Amazing Dude.
+							Amazing Life.
+						</h1>
+						<p>
+							Welcome to the personal site of <strong>John Doe.</strong> 
+							A professional skier and a musician.
+						</p>
+					</div>
+				</div>
+		
+			</div>
+			
+		</header>
+		
+		
+		
+		<div class="content">
+			<div class="container">
+				
+				<div class="content__block content__block--1">
+		
+					<div class="content__bg"></div>
+		
+					<div class="content__text">
+						<h2>Sed faucibus quis</h2>
+						<p>
+							Fusce bibendum luctus massa, 
+							ut tincidunt lectus tincidunt in. 
+							Nulla tristique ipsum vitae lacus 
+							ullamcorper, at dictum nunc 
+							scelerisque.
+						</p>
+					</div>
+		
+				</div>
+			</div>
+		
+		
+				<div class="content__block content__block--2">
+					<div class="content__bg content__bg--1"></div>
+					<div class="content__bg content__bg--2"></div>
+					<div class="content__bg content__bg--3"></div>
+					<div class="content__bg content__bg--4"></div>
+				</div>
+		
+		
+				<div class="content__block content__block--3">
+					<div class="container">
+						<div class="content__text">
+							<h2>Instagram</h2>
+							<p>
+								Etiam lacus dolor, tincidunt vitae 
+								nisi in, vulputate placerat odio.
+								Pellentesque iaculis.
+							</p>
+							<a href="#" class="btn">
+								view on instagram
+							</a>
+						</div>
+					</div>
+		
+					<div class="content__bg"></div>
+				</div>
+		
+		
+				<div class="content__block content__block--4">
+					<div class="content__text">
+						<h2>Self-Effacing Rage</h2>
+						<h3>FT. Fascinating Collision</h3>
+						<p>
+							Director: James G. Rohrer
+							Production Company: Sycamore
+							Producer: Laura S. Carlton
+							Executive Producer: Jack M. Heckart
+						</p>
+						<a href="#" class="btn">
+							click to play
+							<i class="fa fa-play"></i>
+						</a>
+					</div>
+				</div>
+		
+		
+				<div class="content__block content__block--5">
+					<div class="container">
+						<div class="content__text content__text--1">
+							<h2>Spotify</h2>
+							<p>
+								Follow me, stream and add 
+								my songs to your Spotify playlist.
+							</p>
+							<a href="#" class="btn">Follow on spotify</a>
+						</div>
+						<div class="content__text content__text--2">
+							<h2>Itunes</h2>
+							<p>
+								Buy and download my songs
+								from iTunes.
+							</p>
+							<a href="#" class="btn">buy from itunes</a>
+						</div>
+					</div>
+				</div>
+		
+		
+		</div>
+		
+		<footer class="footer">
+			
+			<div class="container">
+		
+				<div class="footer__item footer__item--1">
+					<h2>
+						Amazing dude. <br>
+						amazing life.
+					</h2>
+					<p>
+						Mauris ornare lobortis arcu, at sodales dolor finibus nec. In convallis risus ligula, bibendum sagittis ante cursus vitae. Donec ornare, dui nec sagittis imperdiet, nunc eros dignissim augue, ut aliquam nibh felis sit amet leo. Vivamus eu tincidunt tellus. Vestibulum quis condimentum lectus, nec aliquet lectus. Duis sollicitudin facilisis dui ac aliquet. Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. Integer consequat vel arcu quis dictum. Vestibulum viverra commodo nunc eu pellentesque. Phasellus in scelerisque elit, eu ultricies mauris.
+						<p>&copy;2015. <span class="caps">all rights reserved.</span></p>
+					</p>
+				</div>
+		
+				<div class="footer__item footer__item--2">
+					<h2>
+						Contact me
+					</h2>
+					<p>
+						1242 Crestview Terrace <br>
+						Artesia Wells, TX 78001
+					</p>
+					<p>
+						Phone: 830-676-7974 <br>
+						Email: <a href="#">halo@sitename.com</a>
+					</p>
+					<div class="follow-links">
+						<h2>Follow me on</h2>
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i>facebook</a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i>twitter</a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i>instagram</a></li>
+							<li><a href="#"><i class="fa fa-spotify"></i>spotify</a></li>
+						</ul>
+					</div>
+				</div>
+		
+				<div class="footer__item footer__item--3">
+					<h2>
+						Subscribe
+					</h2>
+					<p>
+						Duis sollicitudin facilisis dui ac aliquet. Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. Integer consequat vel arcu quis dictum. Vestibulum viverra commodo nunc eu pellentesque.
+					</p>
+					<form action="/">
+						<input type="text" placeholder="ENTER YOUR EMAIL ADDRESS">
+						<i class="fa fa-arrow-right"></i>
+					</form>
+		
+					<div class="sponsors">
+						<h2>Sponsor</h2>
+						<a href="#">logo</a>
+						<a href="#">logo</a>
+						<a href="#">logo</a>
+					</div>
+				</div>
+			</div>
+		
+		</footer>
+	</div>
+
+	<!-- Optimized loading JS Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.min.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Optimized loading JS End -->
+
+</body>
+</html>
