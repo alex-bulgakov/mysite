@@ -1,5 +1,6 @@
 @import "bourbon"
 @import "vars"
+@import "mixins"
 
 *::-webkit-input-placeholder
 	color: #666
@@ -24,10 +25,23 @@ body input:required:valid,
 body textarea:required:valid
 	color: #666
 
+*
+	box-sizing: border-box
+	transition-duration: .2s
+
 body
+	position: relative
 	font-size: 16px
 	min-width: 320px
 	position: relative
 	line-height: 1.6
 	font-family: $default-font
 	overflow-x: hidden
+	margin: 0
+
+	ul
+	list-style-type: none
+	+reset
+a
+	text-decoration: none
+	color: black
